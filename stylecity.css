@@ -1,0 +1,83 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+i.amenity-icon.icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 29px;
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+.icon-aerobics-yoga-room {
+    background: url(https://www.prestigeconstructions.com/wp-content/uploads/icons/yoga.jpg);
+}
+detail-features ul {
+    list-style: none;
+    margin: 0;
+}
+.list-three-col {
+    -webkit-columns: 3;
+}
+
+
+ul, menu, dir {
+    display: block;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+body {
+    color: #000000;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: none;
+}
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+        padding-right: 0 !important;
+    overflow-x: hidden;
+        background-color: #fff;
+}
+
+
+::selection {
+    background-color: #b48530;
+    background: #b48530;
+    color: #fff;
+}
+.icon-yoga, .icon-yoga-terrace, .icon-yoga-terrace { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/yoga.jpg) no-repeat; }
+.icon-clubhouse  { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/club-house.jpg) no-repeat; }
+.icon-gymnasium { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/gym.jpg) no-repeat; }
+.icon-atm { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/atm.jpg) no-repeat; }
+.icon-kids { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/kids-play.jpg) no-repeat; }
+.icon-sauna { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/sauna.jpg) no-repeat; }
+.icon-indoor-games { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/indoor-games.jpg) no-repeat; }
+.icon-kids-pool, .icon-pool { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/swimming-pool.jpg) no-repeat; }
+.icon-multipurpose { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/multi-purpose-hall.jpg) no-repeat; }
+.icon-spa { background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/spa.jpg) no-repeat; }
+.icon-table-tennis { background:url(https://www.prestigeconstructions.com/wp-content//uploads/icons/tt.jpg) no-repeat; }
+.icon-aerobics-yoga-room {background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/yoga.jpg) no-repeat; }
+.icon-mini-theatre {background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/mini-theatre.jpg) no-repeat;}
+.icon-super-market-space  {background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/shopping.jpg) no-repeat;}
+.icon-health-club{background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/health-club.jpg) no-repeat;}
+.icon-reading-room {background:url(https://www.prestigeconstructions.com/wp-content/uploads/icons/library.jpg) no-repeat;}

@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="stylecity.css">
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mainstyle.css">
+
+    <title>CITY HEIGHTS</title>
+</head>
+<body style="padding:0px; margin:0px; background-color:#fff;font-family:arial,helvetica,sans-serif,verdana,'Open Sans'">
+	 <!--nav bar-->
+    <div class="w3-top">
+       <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class="w3-bar-item w3-button"><b>City</b> Heights</a>
+    <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+         <a href="index.html#projects" class="w3-bar-item w3-button">Projects</a>
+         <a href="index.html#about"class="w3-bar-item w3-button">About</a>
+         <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+         <a href="http://eepurl.com/dLnfG2"class="w3-bar-item w3-button">Careers</a>
+         <a href="login.php" class="w3-bar-item w3-button">Login</a>
+       </div>
+     </div>
+    </div>
+    <!-- courosal-->
+
+    <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $SpacingX: 5,
+                $SpacingY: 5
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider arrow skin 106 css*/
+        .jssora106 {display:block;position:absolute;cursor:pointer;}
+        .jssora106 .c {fill:#fff;opacity:.3;}
+        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+        .jssora106:hover .c {opacity:.5;}
+        .jssora106:hover .a {opacity:.8;}
+        .jssora106.jssora106dn .c {opacity:.2;}
+        .jssora106.jssora106dn .a {opacity:1;}
+        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+        /*jssor slider thumbnail skin 101 css*/
+        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+        .jssort101 .p:hover{padding:2px;}
+        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+        .jssort101 .p:hover.pdn{padding:0;}
+        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:75px;left:0px;width:980px;height:480px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:50px;left:20px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1080px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="1s.jpg" />
+                <img data-u="thumb" src="1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="2s.jpg" />
+                <img data-u="thumb" src="2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="3s.jpg" />
+                <img data-u="thumb" src="3.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="4s.jpg" />
+                <img data-u="thumb" src="4.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="5s.jpg" />
+                <img data-u="thumb" src="5.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="6s.jpg" />
+                <img data-u="thumb" src="6.jpg" />
+            </div>
+            <div>
+               <img data-u="image" src="7s.jpg" />
+                <img data-u="thumb" src="7.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="8s.jpg" />
+                <img data-u="thumb" src="8.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="9s.jpg" />
+                <img data-u="thumb" src="9.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="3bhk.jpeg" />
+                <img data-u="thumb" src="3bhk.jpeg" />
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="slides">
+                <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                    <svg viewbox="0 0 16000 16000" class="cv">
+                        <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                        <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                        <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
+    <!--corousel end-->
+    <!-- About Section -->
+    <br><br><br><br>
+    <p style="margin-top: 1em"> <font size="6" face="sans-serif"> <marquee> CALL US ON
++91 80 2559 1945 FOR FREE SITE VISIT </marquee> </font> </p> 
+     <marquee></marquee>
+    <!--project heighlights-->
+  <div class="w3-container w3-padding-32" id="Project_Heighlights">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Project Heighlights</h3>
+    <p><b>Development Type:</b>&nbsp;&nbsp;&nbsp;Residential, High-Rise Apartments</p>
+    <p><b>Development Size:</b>&nbsp;&nbsp;&nbsp;Ground + 6 floors</p>
+    <p><b>Number of Units:</b>&nbsp;&nbsp;&nbsp;&nbsp;  50 Appartments and 20 shops</p>
+    <p><b>Bedrooms:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5, 3</p>
+    <p><b>Property Status:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new Launch</p>
+    <p><b>Contact no:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9828883234</p>
+    <p><b>Address:</b>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City Heights, Ramdevra Road, Rupavas House, Agrasen Marg, Pali, Rajasthan-306401</p>
+  </div>
+  <!--unit details and price-->
+  <div class="w3-container w3-padding-32" id="unit_details">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Unit Details & Price</h3>
+    <table>
+  <tr>
+    <th>UNIT TYPE</th>
+    <th>AREA (IN SQ. FEET)</th>
+    <th>PRICE RANGE</th>
+  </tr>
+  <tr>
+    <td>2 BR</td>
+    <td>1339</td>
+    <td>starting @ 33 Lakhs</td>
+  </tr>
+  <tr>
+    <td>3 BR</td>
+    <td>1615-1693</td>
+    <td>Starting @ 40 Lakhs</td>
+  </tr>
+   <tr>
+    <td>COMMERCIAL SHOPS</td>
+    <td>450</td>
+    <td>Starting @ 3 Lakhs</td>
+  </tr>
+  
+</table>
+  </div>
+  <!--aminities-->
+  <div class="w3-container w3-padding-32" id="aminities">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Aminities</h3>
+    <ul class="list-three-col list-features">
+        <li>
+        	<span class="amenity-entity"><i class="amenity-icon icon icon-aerobics-yoga-room"></i></span>
+        	<span class="text">Aerobics/Yoga Room</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-kids"></i></span>
+        	<span class="text">Children's Play Area</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-gymnasium"></i></span>
+        	<span class="text">Gymnasium</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-health-club"></i></span>
+        	<span class="text">Health Club</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-mini-theatre"></i></span>
+        	<span class="text">Mini Theatre</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-multipurpose"></i></span>
+        	<span class="text">Multipurpose Hall</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-reading-room"></i></span>
+        	<span class="text">Reading Room</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-super-market-space"></i></span>
+        	<span class="text">Super Market Space</span>
+        </li>
+        <li><span class="amenity-entity"><i class="amenity-icon icon icon-pool"></i></span><span class="text">Swimming Pool</span></li> 
+    </ul>
+  </div>  
+  </div>
+  <!--video-->
+  <div class="w3-container w3-padding-32" id="video">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Walk Through</h3>
+    <div style="text-align:center">
+    <video width="698" height="520" controls>
+ 		 <source src="manshree.mp4" type="video/mp4">
+  		 <source src="manshree.ogg" type="video/ogg">
+	</video>
+</div>
+  </div>
+  <!--about-->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>In the bustling suburb of Sindhi Colony, as life swirls about in frenetic effort, we welcome you to lose yourself in a quiet haven that is quite another world in itself. <b>City Heights</b> An elegant and serenely majestic tower of 50 units exquisitely designed and laid out apartments and 20 commercial shops. Offering a choice of twobed, two-bed plus study and three-bed configurations. Each located to give you as much natural light and ventilation as you could wish for. And planned to enable you to use space in the most optimum manner possible. A tranquil world of its own, securely insulated from the suburban flurry and yet within ready reach of all civic and social amenities. Appointed with myriad luxury lifestyle amenities to ensure you lead the sort of life you have always been used to. Only better! Read on to discover how a comforting sense of privacy, an assuring promise of efficiency and a leisurely aura of luxury combine to offer you a home like no other.
+    </p>
+  </div>
+  <!-- google maps-->
+  </div>
+  <div class="w3-container w3-padding-32" id="Location">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Location</h3>
+	<div id="googleMap"  style="width:100%;height:450px;"></div>
+  </div>
+  <!--contact us-->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="contact.php" method="post">
+    
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
+  
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Mobile" required name="mobile">
+      <label for="request">Request a site visit:</label>&nbsp;&nbsp;
+      <input type="radio" name="request" value="yes" checked> Yes
+  	  <input type="radio" name="request" value="no"> No<br>
+  	  <label for "interest">Choose your Interest:</label>&nbsp;&nbsp;
+    <select name="interest">
+    	<option><b>2 BHK</b></option>
+    	<option><b>3 BHK</b></option>
+    	<option><b>Commercial Shops</b></option>
+      <option><b>Personal Project</b></option>
+
+    </select>
+      <textarea class="w3-input w3-section w3-border" rows="2" placeholder="I am interested in this property, request you to get back to me on the above-mentioned details."name="comment"></textarea>
+     
+      <!--<input class="w3-input w3-section w3-border" type="textarea" placeholder="I am interested in this property, request you to get back to me on the above-mentioned details" name="comment">-->
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SUBMIT
+      </button>
+    </form>
+  </div>
+
+  <!-- maps-->
+  <script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(25.780471, 73.320627);
+  var mapOptions= {
+    center:myCenter,
+    zoom:15, scrollwheel: true, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPmeOR3fMjQh_TXqi6Ec7v_XQu8FbFNLI&callback=myMap"></script>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Developed by:&nbsp; <a href="https://github.com/vaibhavmehta7570">Vaibhav Mehta & Siddharth Singh</a></p>
+</footer>
+</body>
+</html>
